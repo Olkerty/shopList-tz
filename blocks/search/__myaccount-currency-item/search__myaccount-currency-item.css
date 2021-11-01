@@ -1,0 +1,15 @@
+.search__myaccount-currency-item {
+  padding: 6px 10px;
+  border: 1px solid #d9d9d9;
+  color: #767676;
+	width: 34px;
+	height: 34px;
+	text-align: center;
+	box-sizing: border-box;
+	margin-right: 10px;
+}
+
+.search__myaccount-currency-item:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}

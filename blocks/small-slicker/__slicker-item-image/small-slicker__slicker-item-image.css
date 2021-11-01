@@ -1,0 +1,8 @@
+.small-slicker__slicker-item-image {
+	width: 200px;
+	height: 250px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	background: url(../../../images/laptop.jpg);
+	background-position: center;
+}

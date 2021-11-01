@@ -1,0 +1,10 @@
+.pictures__table-row-text { 
+	display: flex;
+	flex-direction: column;
+}
+
+@media all and (max-width:750px) {
+	.pictures__table-row-text {
+		flex-direction: row;
+	}
+}

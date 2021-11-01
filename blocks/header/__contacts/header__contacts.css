@@ -1,0 +1,21 @@
+
+.header__contacts {
+	display: block;
+	margin: 0;
+	padding: 0;
+	float: left;
+    color: #939393;
+    font-weight: 400;
+    padding: 12px 0;
+    text-transform: capitalize;
+}
+
+.header__contacts:hover {
+	color: #9174ce;
+}
+
+@media all and (max-width: 970px) {
+	.header__contacts {
+		display: none;
+	}
+}

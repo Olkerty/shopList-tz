@@ -1,0 +1,50 @@
+.small-slicker__slicker-item {
+	width: 240px;
+	height: 400px;
+	display: none;
+	display: flex;
+	flex-direction: column;
+  transition: all .2s ease-in-out;
+}
+
+@media all and (max-width:800px) {
+		.small-slicker__slicker-item {
+		width:30vw;
+	}
+}
+
+@media all and (max-width:500px) {
+		.small-slicker__slicker-item {
+		width:40vw;
+	}
+}
+
+@media all and (max-width:450px) {
+	.small-slicker__slicker-item {
+			width: 240px;
+	}
+}
+
+.small-slicker__slicker-item:hover {
+	cursor: pointer;
+}
+
+.small-slicker__slicker-item:hover .small-slicker__slicker-item-image-first {	
+	transform: translateX(200px);
+	display: none;
+}
+
+
+.small-slicker__slicker-item:hover .small-slicker__slicker-item-image-second {
+display: unset;
+
+}
+
+.small-slicker__slicker-item:hover .small-slicker__slicker-item-add-button {
+	opacity: 1;
+}
+
+
+.small-slicker__slicker-item:hover .small-slicker__slicker-item-name {
+	color:#9174ce;
+}

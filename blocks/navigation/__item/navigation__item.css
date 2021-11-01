@@ -1,0 +1,42 @@
+.navigation__item {
+	font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+		box-sizing: border-box;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -moz-border-radius: 5px;
+    position: relative;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    color: #000;
+    padding: 9px 19px 9px;
+		width: fit-content;
+		  background-repeat: no-repeat;
+  transition: background-size .5s, color .5s;
+}
+
+.navigation__item:hover {
+  background-color: #9174ce;
+  background-position: 0% 50%;
+  cursor: pointer;
+}
+
+@media all and (max-width:1000px) {
+  .navigation__item {
+      text-transform: lowercase;
+      
+	
+  }
+
+  .navigation__item:hover {
+    background-color: white;
+    color: #9174ce;
+
+  }
+
+}

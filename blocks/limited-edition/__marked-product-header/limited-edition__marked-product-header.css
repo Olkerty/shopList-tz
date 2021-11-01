@@ -1,0 +1,21 @@
+.limited-edition__marked-product-header {
+	margin: 0;
+    color: #010101;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 10px;
+    letter-spacing: 0.8px;
+}
+
+@media (max-width: 979px) {}
+.limited-edition__marked-product-header {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 1200px) {
+	.limited-edition__marked-product-header {
+		font-size: 16px;
+	}
+}

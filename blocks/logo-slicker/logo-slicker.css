@@ -1,0 +1,11 @@
+.logo-slicker {
+	padding: 0 20px 0 20px;
+	background: #f7f7f7;
+	height: 210px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	box-sizing: border-box;
+  margin-bottom: 15px;
+  position: relative;
+}

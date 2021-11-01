@@ -1,0 +1,9 @@
+.footer__drop-down-content {
+	background: #fff;
+	transition: transform .6s ease, opacity .6s ease;
+	opacity: 0;
+	transform-origin:0 0;
+	height: 0;
+	width: fit-content;
+	transform: scaleY(0);
+}

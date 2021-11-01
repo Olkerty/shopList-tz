@@ -1,0 +1,34 @@
+.limited-edition__common-products {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	height: 440px;
+}
+
+@media all and (max-width:1450px) {
+	.limited-edition__common-products {
+		height: 409px;
+	}
+}
+
+@media all and (max-width:1200px) {
+	.limited-edition__common-products {
+		height: 327px;
+	}
+}
+
+@media all and (max-width:970px) {
+	.limited-edition__common-products {
+		height: 250px;
+	}
+}
+
+@media all and (max-width:750px) {
+	.limited-edition__common-products {
+		flex-direction: row;
+		justify-content: space-between;
+		height: 22vw;
+		width: 100%;
+	}
+}
+	

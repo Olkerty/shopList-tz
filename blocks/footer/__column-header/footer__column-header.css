@@ -1,0 +1,17 @@
+.footer__column-header {
+	position: relative;
+  color: #000000;
+  font-size: 12px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 0;
+}
+
+@media all and (max-width:700px) {
+	.footer__column-header {
+		display: none;
+	}
+}

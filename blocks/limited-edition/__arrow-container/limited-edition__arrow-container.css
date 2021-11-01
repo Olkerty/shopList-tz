@@ -1,0 +1,35 @@
+
+.limited-edition__arrow-container {
+	position: absolute;
+	width: 793px;
+	height: 440px;
+}
+
+@media all and (max-width:1500px) {
+	.limited-edition__arrow-container {
+		width: 720px;
+		height: 409px;
+	}
+}
+
+@media all and (max-width:1200px) {
+	.limited-edition__arrow-container {
+		width: 591px;
+		height: 327px;
+	}
+}
+
+@media all and (max-width:970px) {
+	.limited-edition__arrow-container {
+		width: 450px;
+		height: 250px;
+	}
+}
+
+@media all and (max-width:700px) {
+	.limited-edition__arrow-container {
+		display: none;
+		width: 80vw;
+		height: 51vw;
+	}
+}

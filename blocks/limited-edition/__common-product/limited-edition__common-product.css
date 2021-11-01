@@ -1,0 +1,32 @@
+.limited-edition__common-product {
+	height: 210px;
+	width: 387px;
+}
+
+@media all and (max-width:1450px) {
+	.limited-edition__common-product {
+		width:350px;
+		height: 190px;
+	}
+}
+
+@media all and (max-width:1200px) {
+	.limited-edition__common-product {
+		width: 290px;
+		height: 157px;
+	}
+}
+
+@media all and (max-width:975px) {
+	.limited-edition__common-product{
+		width:218px;
+		height: 118px;
+	}
+}
+
+@media all and (max-width:750px) {
+	.limited-edition__common-product{
+		width: 39vw;
+		height: 20vw;
+	}
+}

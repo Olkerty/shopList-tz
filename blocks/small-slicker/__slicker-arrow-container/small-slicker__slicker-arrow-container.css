@@ -1,0 +1,8 @@
+.small-slicker__slicker-arrow-container {
+	position: absolute;
+	top: 0px;
+	right: 70px;
+	width: 70px;
+	height: 40px;
+	z-index: 9;
+}

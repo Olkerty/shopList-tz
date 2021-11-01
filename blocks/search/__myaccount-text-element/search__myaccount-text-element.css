@@ -1,0 +1,13 @@
+.search__myaccount-text-element {
+	display: block;
+    padding: 0;
+		margin: 6px 0;
+    font-weight: 500;
+    color: #333;
+    white-space: nowrap;
+}
+
+.search__myaccount-text-element:hover {
+	color: #9174ce;
+	cursor: pointer;
+}

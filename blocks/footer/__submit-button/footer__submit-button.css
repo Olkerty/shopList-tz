@@ -1,0 +1,20 @@
+.footer__submit-button {
+	background: #9174ce;
+    border: medium none !important;
+    font-size: 12px;
+    height: 45px;
+		width: 30%;
+    max-width: 85px;
+    font-weight: 600;
+    position: relative;
+    border-radius: 0 5px 5px 0 !important;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.footer__submit-button:hover {
+	cursor: pointer;
+	background-color: black;
+}
+

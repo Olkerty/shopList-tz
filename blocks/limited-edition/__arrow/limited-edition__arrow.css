@@ -1,0 +1,39 @@
+.limited-edition__arrow {
+	position:absolute;
+	display: none;
+	top: 220px;
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #9174ce;
+	border: none;
+}
+
+.limited-edition__arrow:hover {
+	cursor: pointer;
+}
+
+
+@media all and (max-width:1450px) {
+	.limited-edition__arrow {
+		top: 200px;
+	}
+}
+
+@media all and (max-width:1200px) {
+	.limited-edition__arrow {
+		top: 163px;
+	}
+}
+
+@media all and (max-width:970px) {
+	.limited-edition__arrow {
+top: 125px;
+	}
+}
+
+@media all and (max-width:750px) {
+	.limited-edition__arrow {
+		top: 25vw;
+	}
+}

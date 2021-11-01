@@ -1,0 +1,17 @@
+
+.search__search-construction {
+	box-sizing: border-box;
+			max-height: 40px;
+    display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: flex-start;    
+	}
+
+@media all and (max-width:1000px) {
+	.search__search-construction {
+		display:none;
+		width: 90%;
+		margin-top: 20px;
+	}
+}

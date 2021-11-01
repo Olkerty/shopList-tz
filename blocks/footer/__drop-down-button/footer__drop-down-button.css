@@ -1,0 +1,17 @@
+.footer__drop-down-button {
+	display: none;
+	font-weight: 700;
+	font-size: 15px;
+}
+
+.footer__drop-down-button:hover {
+	cursor: pointer;
+}
+
+@media all and (max-width:690px) {
+	.footer__drop-down-button {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}

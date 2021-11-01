@@ -1,0 +1,40 @@
+.pictures__loft {
+	background-image: url(../../../images/loft.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	width: 1200px;
+	height: 253px;
+	flex-direction: row;
+	justify-content: center;
+}
+
+@media all and (max-width:1450px) {
+	.pictures__loft {
+		width:1072px;
+		height: 229px;
+	}
+}
+
+@media all and (max-width:1200px) {
+	.pictures__loft {
+		width: 900px;
+		height:191px;
+	}
+}
+
+@media all and (max-width:1000px) {
+	.pictures__loft {
+		width: 684px;
+		height: 144px;
+	}
+}
+
+
+@media all and (max-width:750px) {
+	.pictures__loft {
+		width: 75.67vw;
+		height: 24.88vw;
+	}
+}

@@ -1,0 +1,16 @@
+.search__drop-menu-first-level-dropdown-item {
+	width: 100%;
+	height: 40px;
+	border: none;
+	margin-left: 25px;
+	margin-right: 20px;
+	font-size: 14px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.search__drop-menu-first-level-dropdown-item:hover {
+	color:#9174ce ;
+	cursor: pointer;
+}

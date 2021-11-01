@@ -1,0 +1,9 @@
+.rolling-icons__name {
+	color: #000000;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  line-height: 22px;
+  margin: 6px 0 0 10px;
+}

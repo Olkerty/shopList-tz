@@ -1,0 +1,5 @@
+.expand {
+	opacity: 1;
+	height: unset;
+	transform: scaleY(1);
+}

@@ -1,0 +1,13 @@
+.search__drop-menu-second-level-dropdown {
+	transform-origin:0 0;
+	height: 0;
+	position: relative;
+	background: #fff;
+  border: medium none;
+  box-shadow: none;
+	box-sizing: border-box;
+	width: 80%;
+	margin-left: 25px;
+	transition: transform .3s ease;
+	transform: scaleY(0);
+}

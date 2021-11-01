@@ -1,0 +1,10 @@
+.footer__signup {
+	width: 35%;
+}
+
+
+@media all and (max-width:700px) {
+	.footer__signup {
+		display: none;
+	}
+}

@@ -1,0 +1,12 @@
+.navigation__clothes-dropdown-content {
+	list-style: none;
+	display: none;
+	padding: 0;
+	transform: translate(-15px,25px);
+	box-shadow: 0 0 7px rgb(0 0 0 / 12%);
+	border-radius: 15px;
+	width: fit-content;
+	z-index: 10;
+	position: absolute;
+	flex-direction: row;
+}

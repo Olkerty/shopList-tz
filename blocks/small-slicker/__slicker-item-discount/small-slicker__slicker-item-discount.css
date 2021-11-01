@@ -1,0 +1,15 @@
+.small-slicker__slicker-item-discount {
+	background: #9174ce;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 12px;
+		height: fit-content;
+    line-height: 18px;
+    margin: 0 2px;
+    padding: 0px 2px;
+		box-sizing: border-box;
+    vertical-align: middle;
+    z-index: 2;
+    font-weight: 600;
+    margin: 0 5px;
+}

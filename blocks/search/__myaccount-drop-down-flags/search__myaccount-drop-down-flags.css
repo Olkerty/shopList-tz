@@ -1,0 +1,13 @@
+.search__myaccount-drop-down-flags {
+	display: flex;
+	flex-direction: row;
+	margin-top: 5px;
+}
+
+.search__myaccount-drop-down-flags:hover {
+	cursor: pointer;
+}
+
+.search__myaccount-drop-down-flag:last-of-type{
+	margin-left: 10px;
+}

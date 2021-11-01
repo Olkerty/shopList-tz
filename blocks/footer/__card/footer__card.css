@@ -1,0 +1,9 @@
+.footer__card {
+	opacity: 0.6;
+	margin-left:10px; 
+}
+
+.footer__card:hover {
+	opacity: 1;
+	cursor: pointer;
+}

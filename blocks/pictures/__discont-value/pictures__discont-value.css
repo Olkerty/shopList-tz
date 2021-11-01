@@ -1,0 +1,11 @@
+.pictures__discont-value {
+    color: #9174ce;
+		width: fit-content;
+    font-size: 12px;
+    line-height: 19px;
+    text-transform: uppercase;
+    background: #fff;
+    padding: 2px 10px;
+    display: inline-block;
+    letter-spacing: 1.4px;
+}

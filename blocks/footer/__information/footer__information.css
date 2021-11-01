@@ -1,0 +1,9 @@
+.footer__information {
+	width: 15%;
+}
+
+@media all and (max-width:700px) {
+	.footer__information {
+		width: 100%;
+	}
+}

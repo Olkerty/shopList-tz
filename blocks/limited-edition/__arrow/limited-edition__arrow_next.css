@@ -1,0 +1,8 @@
+.limited-edition__arrow_next {
+	right: 30px;
+	background-image: url(../../../images/left-arrow.png);
+	background-position: center;
+	transform: rotate(180deg);
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+}

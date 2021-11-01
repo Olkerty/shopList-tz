@@ -1,0 +1,12 @@
+.search__drop-menu {
+	position: absolute;
+	z-index: 100;
+	
+	background: #fff;
+		border: 1px solid #e5e5e5;
+	width: 80vw;
+	transition: transform .3s ease;
+	transform-origin:0 0;
+	transform: scaleY(0);
+	margin-top: 100px;
+}

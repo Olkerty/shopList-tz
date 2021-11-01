@@ -1,0 +1,9 @@
+.search__search-construction_tablet {
+	display: none;
+}
+
+@media all and (max-width:1000px) {
+	.search__search-construction_tablet {
+		display:unset;
+	}
+}

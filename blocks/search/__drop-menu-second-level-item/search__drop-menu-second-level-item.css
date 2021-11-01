@@ -1,0 +1,16 @@
+.search__drop-menu-second-level-item {
+	height: 30px;
+	font-weight: 600;
+	width: 40vw;
+	margin: 0;
+	padding: 0;
+}
+
+.search__drop-menu-second-level-item:hover {
+	color:#9174ce ;
+	cursor: pointer;
+}
+
+.search__drop-menu-second-level-item:last-of-type {
+	margin-bottom: 10px;
+}

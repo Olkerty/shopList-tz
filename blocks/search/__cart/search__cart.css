@@ -1,0 +1,20 @@
+.search__cart {
+	    font-size: 13px;
+    margin: 5px 30px 0 25px;
+    font-weight: 400;
+    position: relative;
+    cursor: pointer;
+		    font-weight: 600;
+    letter-spacing: 0;
+    color: #000;
+}
+
+.search__cart:hover {
+    color: #9174ce;
+}
+
+@media all and (max-width: 700px) {
+    .search__cart {
+        margin: 0;
+    }
+}

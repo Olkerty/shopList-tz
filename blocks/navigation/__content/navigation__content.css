@@ -1,0 +1,22 @@
+.navigation__content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-bottom: 1px solid #e8e8e8;
+  border-top: 1px solid #e8e8e8;
+
+  margin: 20px 15px;
+  width: 95%;
+  float: left;
+  padding: 9px 0;
+}
+
+@media all and (max-width:1000px) {
+	.navigation__content {
+			background: white;
+			margin: 0;
+			z-index: 100;
+		position:absolute;
+		flex-direction: column;
+	}
+}

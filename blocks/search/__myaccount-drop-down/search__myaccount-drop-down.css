@@ -1,0 +1,21 @@
+.search__myaccount-drop-down {
+		position: absolute;
+	z-index: 100;
+	
+	background: #fff;
+	transition: transform .3s ease;
+	transform-origin:0 0;
+	transform: scaleY(0);
+	margin-top: 40px;
+	width: 20vw;
+	box-shadow: 0 0 7px rgb(0 0 0 / 12%);
+    border: none;
+    font-size: 13px;
+    min-width: 230px;
+		box-sizing: border-box;
+    padding: 20px;
+    right: 0px;
+    text-align: left;
+    top: 20px;
+}
+

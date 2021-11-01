@@ -1,0 +1,17 @@
+.small-slicker__slicker-item-image-second {
+		border: 1px solid gray;
+	border-radius: 5px;
+	display: none;
+}
+
+@media all and (max-width:800px) {
+	.small-slicker__slicker-item-image-second {
+		width: 30vw;
+	}
+}
+
+@media all and (max-width:400px) {
+	.small-slicker__slicker-item-image-second {
+		width: 50vw;
+	}
+}

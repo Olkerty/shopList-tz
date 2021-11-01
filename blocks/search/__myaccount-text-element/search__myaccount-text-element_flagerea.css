@@ -1,0 +1,9 @@
+.search__myaccount-text-element_flagerea {
+	color: #000;
+}
+
+.search__myaccount-text-element_flagerea:hover {
+	cursor: pointer;
+	color: #000;
+	text-decoration: underline;
+}

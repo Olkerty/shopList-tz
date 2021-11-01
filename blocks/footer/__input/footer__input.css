@@ -1,0 +1,11 @@
+.footer__input {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+@media all and (max-width:700px) {
+	.footer__input {
+		width: 70vw;
+	}
+}

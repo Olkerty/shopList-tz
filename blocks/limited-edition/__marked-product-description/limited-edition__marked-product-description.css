@@ -1,0 +1,15 @@
+.limited-edition__marked-product-description {
+	    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: capitalize;
+float: left;
+}
+
+@media (max-width: 979px) {
+	.limited-edition__marked-product-description {
+    font-size: 12px;
+    line-height: 14px;
+	}
+}

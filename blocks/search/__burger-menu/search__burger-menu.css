@@ -1,0 +1,16 @@
+.search__burger-menu {
+	display: none;
+	width: 20px;
+	height: 20px;
+	margin-right: 28px;
+}
+
+.search__burger-menu:hover {
+	cursor: pointer;
+}
+
+@media all and (max-width:980px) {
+	.search__burger-menu {
+		display: unset;
+	}
+}

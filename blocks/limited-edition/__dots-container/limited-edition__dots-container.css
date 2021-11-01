@@ -1,0 +1,32 @@
+.limited-edition__dots-container {
+	position: absolute;
+	bottom: 60px;
+	height: 50px;
+	width: 793px;
+}
+
+@media all and (max-width:1500px) {
+	.limited-edition__dots-container {
+		width: 720px;
+	}
+}
+
+@media all and (max-width:1200px) {
+	.limited-edition__dots-container {
+		width: 591px;
+	}
+}
+
+@media all and (max-width:970px) {
+	.limited-edition__dots-container {
+		width: 450px;
+	}
+}
+
+@media all and (max-width:750px) {
+	.limited-edition__dots-container {
+		width: 80vw;
+		bottom: unset;
+		top: calc(51vw - 120px);
+	}
+}

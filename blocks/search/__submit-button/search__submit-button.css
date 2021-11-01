@@ -1,0 +1,23 @@
+.search__submit-button {
+	   border: medium none;
+    border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 0 5px 5px 0;
+    -khtml-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    bottom: 0;
+    color: #000000;
+    background-color:#9174ce ;
+    background-image: url(../../../images/lupa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40px;
+    outline: 0 none;
+    right: 0;
+    text-transform: uppercase;
+    width: 50px;
+    transition: all 500ms ease 0s;
+}
+
+.search__submit-button:hover {
+	cursor: pointer;
+}

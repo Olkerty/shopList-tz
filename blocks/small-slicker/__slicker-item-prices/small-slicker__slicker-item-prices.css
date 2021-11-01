@@ -1,0 +1,4 @@
+.small-slicker__slicker-item-prices {
+	display: flex;
+	flex-direction: row;
+}

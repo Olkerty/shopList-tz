@@ -1,0 +1,13 @@
+.pictures__sales {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+@media all and (max-width:750px) {
+	.pictures__sales {
+		flex-direction: column;
+	}
+}

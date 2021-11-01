@@ -1,0 +1,15 @@
+.footer__text-item {
+	text-decoration: none;
+	color: #808080;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 26px;
+  font-weight: 400;
+  display: block;
+  text-transform: capitalize;
+  letter-spacing: 1.3px;
+}
+
+.footer__text-item:hover {
+	color: #9174ce;
+}

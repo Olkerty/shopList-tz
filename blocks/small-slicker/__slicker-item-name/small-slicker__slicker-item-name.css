@@ -1,0 +1,12 @@
+.small-slicker__slicker-item-name {
+    color: #848484;
+    float: left;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 4px;
+    text-align: left;
+    text-decoration: none;
+    width: 100%;
+    letter-spacing: 0.8px;
+}

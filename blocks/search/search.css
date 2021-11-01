@@ -1,0 +1,25 @@
+.search {
+	display: flex;
+	flex-direction: row;
+	padding: 20px 30px;
+	
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 25px;
+	box-sizing: border-box;
+}
+
+@media all and (max-width: 1000px) {
+	.search {
+		flex-direction: column;
+		justify-content: space-between;
+		align-items:center; 
+	}
+}
+
+@media all and (max-width: 700px) {
+	.search {
+		padding: 0;
+	}
+}
+

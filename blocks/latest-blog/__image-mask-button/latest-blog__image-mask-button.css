@@ -1,0 +1,18 @@
+.latest-blog__image-mask-button {
+	width:40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #9174ce;
+	transition: background .5s ease;
+	border: 3px solid white;
+}
+
+.latest-blog__image-mask-button:first-of-type {
+	margin-left: 30%;
+	margin-right: 10px;
+}
+
+.latest-blog__image-mask-button:hover {
+	cursor: pointer;
+	background-color: black;
+}

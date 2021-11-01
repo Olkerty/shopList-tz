@@ -1,0 +1,27 @@
+.small-slicker__slicker-item-add-button {
+	border-radius: 10px;
+	background-color: #9174ce;
+  color: #fff;
+	opacity: 0;
+	font-size: 14px;
+  padding: 7px 10px;
+  font-weight: 600;
+  text-align: center;
+	box-sizing: border-box;
+	width: fit-content;
+  text-transform: uppercase;
+  transition: opacity .5s;
+  border: 1px solid #9174ce;
+  border-radius: 5px;
+}
+
+@media all and (max-width:750px) {
+	.small-slicker__slicker-item-add-button {
+		opacity: 1;
+	}
+}
+
+.small-slicker__slicker-item-add-button:hover {
+	cursor: pointer;
+	background-color: black;
+}

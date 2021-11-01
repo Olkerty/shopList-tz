@@ -1,0 +1,19 @@
+.our-products__big-slicker-navigation {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	justify-content: space-between;
+	border-bottom: 1px solid gray;
+	margin-left: 15px;
+	z-index: 100;
+	margin-right: 150px;
+	transform: translateY(50px);
+}
+
+@media all and (max-width:500px) {
+	.our-products__big-slicker-navigation {
+		flex-direction: column;
+		align-items: center;
+		border: none;
+	}
+}

@@ -1,0 +1,14 @@
+.latest-blog__item {
+	box-sizing: border-box;
+	width: 280px;
+	padding: 12px;
+	position: relative;
+	background: #fff;
+	box-shadow: none;
+}
+
+@media all and (max-width: 450px) {
+	.latest-blog__item {
+		padding: 0;
+	}
+}

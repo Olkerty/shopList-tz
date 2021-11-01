@@ -1,0 +1,12 @@
+.specials__control {
+	border-bottom: 1px solid gray;
+	margin-bottom: 10px;
+	margin-right: 60px;
+	margin-left: 10px;
+}
+
+@media all and (max-width:450px) {
+	.specials__control {
+		border: none;
+	}
+}

@@ -1,0 +1,13 @@
+.navigation__one-column-dropdown-content {
+	list-style: none;
+	display: none;
+	padding: 15px;
+	transform: translate(-10px,25px);
+	box-shadow: 0 0 7px rgb(0 0 0 / 12%);
+	border-radius: 5px;
+	width: 150px;
+	z-index: 10;
+	background-color: white;
+	position: absolute;
+	flex-direction: column;
+}

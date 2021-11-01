@@ -1,0 +1,11 @@
+.search__logo {
+	display: inline-block;
+	height: 28px;
+}
+
+@media all and (max-width:500px) {
+	.search__logo {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}

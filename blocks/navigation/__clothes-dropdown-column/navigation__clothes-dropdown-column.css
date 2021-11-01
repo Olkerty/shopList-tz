@@ -1,0 +1,15 @@
+
+.navigation__clothes-dropdown-column {
+	width: 120px;
+	display: flex;
+		z-index: 100;
+	flex-direction: column;
+	    border: none;
+    left: auto;
+    right: auto;
+		
+		top: 40px !important;
+    background-color: #fff;
+    padding: 20px;
+
+}

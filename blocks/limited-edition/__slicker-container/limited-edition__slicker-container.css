@@ -1,0 +1,12 @@
+.limited-edition__slicker-container {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+@media all and (max-width:750px) {
+	.limited-edition__slicker-container {
+		flex-direction: column;
+	}
+}

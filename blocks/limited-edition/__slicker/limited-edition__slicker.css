@@ -1,0 +1,35 @@
+.limited-edition__slicker {
+	margin-right: 15px;
+	height: auto;
+	width: 793px;
+	height: 440px;
+}
+
+@media all and (max-width:1450px) {
+	.limited-edition__slicker {
+		width: 720px;
+		height: 409px;
+	}
+}
+
+@media all and (max-width:1200px) {
+	.limited-edition__slicker {
+		width: 591px;
+		height: 327px;
+	}
+}
+
+@media all and (max-width:970px) {
+	.limited-edition__slicker {
+		width: 450px;
+		height: 250px;
+	}
+}
+
+@media all and (max-width:750px) {
+	.limited-edition__slicker {
+		width: 75vw;
+		height: 51vw;
+		margin-top: 20px;
+	}
+}

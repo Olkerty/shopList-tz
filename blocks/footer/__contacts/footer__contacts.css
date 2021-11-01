@@ -1,0 +1,9 @@
+.footer__contacts {
+	width: 25%;
+}
+
+@media all and (max-width:700px) {
+	.footer__contacts {
+		width: 100%;
+	}
+}

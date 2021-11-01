@@ -1,0 +1,9 @@
+.footer__myaccount {
+	width: 15%;
+}
+
+@media all and (max-width:700px) {
+	.footer__myaccount {
+		width: 100%;
+	}
+}

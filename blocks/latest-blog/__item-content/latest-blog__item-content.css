@@ -1,0 +1,38 @@
+.latest-blog__item-content {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  border: 1px solid #e8e8e8;
+}
+
+@media all and (max-width:1450px) {
+	.latest-blog__item-content {
+		width: 253px;
+	}
+}
+
+@media all and (max-width:1200px) {
+	.latest-blog__item-content {
+		width: 283px;
+	}
+}
+
+@media all and (max-width:1000px) {
+	.latest-blog__item-content {
+		width: 322px;
+	}
+}
+
+@media all and (max-width:780px) {
+	.latest-blog__item-content {
+		width: 41.2vw;
+	}
+}
+
+@media all and (max-width:500px) {
+	.latest-blog__item-content {
+		width: 84.4vw;
+	}
+}

@@ -1,0 +1,11 @@
+.latest-blog__date {
+	color: #9174ce;
+    float: left;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 23px;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}

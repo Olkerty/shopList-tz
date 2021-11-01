@@ -1,0 +1,12 @@
+.navigation__one-column-item {
+	margin: 0;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 0;
+	margin-top: 10px;
+}
+
+.navigation__one-column-item:hover {
+		color: purple;
+	cursor: pointer;
+}

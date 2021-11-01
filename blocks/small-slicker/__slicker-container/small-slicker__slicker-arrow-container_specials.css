@@ -1,0 +1,11 @@
+.small-slicker__slicker-arrow-container_specials {
+	transform: translate(0,0);
+	top: 0;
+	right: 70px;
+}
+
+@media all and (max-width:450px){
+	.small-slicker__slicker-arrow-container_specials {
+		right: 0;
+	}
+}

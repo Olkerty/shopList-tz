@@ -1,0 +1,19 @@
+.footer__text-input {
+	    box-shadow: none;
+    background: #f5f5f5 none repeat scroll 0 0;
+    border: none;
+		width: 60%;
+		box-sizing: border-box;
+		    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px 0 0 6px;
+}
+
+@media all and (max-width:700px) {
+	.footer__text-input {
+		font-size: 14px;
+    width: 80%;
+	}
+}

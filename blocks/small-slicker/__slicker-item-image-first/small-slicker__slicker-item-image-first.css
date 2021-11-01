@@ -1,0 +1,28 @@
+.small-slicker__slicker-item-image-first {
+	border: 1px solid gray;
+	border-radius: 10px;
+}
+
+@media all and (max-width:800px) {
+	.small-slicker__slicker-item-image-first {
+		width: 30vw;
+	}
+}
+
+@media all and (max-width:400px) {
+	.small-slicker__slicker-item-image-first {
+		width: 50vw;
+	}
+}
+
+@keyframes swiping {
+	0% {
+		transform: translateX(0px);
+	}
+	100% {
+		transform: translateX(200px);
+	}
+}
+.small-slicker__slicker-item-image-first:hover {
+	animation: swiping .5s ease;
+}

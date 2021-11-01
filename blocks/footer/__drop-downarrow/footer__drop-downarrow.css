@@ -1,0 +1,9 @@
+.footer__drop-downarrow{ 
+	background-image: url(../../../images/black-angle-top.png);
+	background-size: 8px 8px;
+	background-position: center;
+	z-index: 10000;
+	background-repeat: no-repeat;
+	width: 8px;
+	height: 8px;
+}

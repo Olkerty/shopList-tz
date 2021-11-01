@@ -1,0 +1,14 @@
+.footer__email {
+	font-weight: 500;
+  line-height: 20px;
+  font-size: 12px;
+  letter-spacing: 1.3px;
+  color: #808080;
+}
+
+
+@media all and (max-width:700px) {
+    .footer__email {
+        width: fit-content;
+    }
+}

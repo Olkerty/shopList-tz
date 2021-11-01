@@ -1,0 +1,5 @@
+.latest-blog__slicker {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}

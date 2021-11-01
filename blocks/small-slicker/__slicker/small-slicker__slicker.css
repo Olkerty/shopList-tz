@@ -1,0 +1,4 @@
+.small-slicker__slicker {
+	display: flex;
+	flex-direction: row;
+}

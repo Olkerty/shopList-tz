@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./scripts/slick-1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="./scripts/slick-1.8.1/slick/slick-theme.css" />
+  <link rel="stylesheet" href="./pages/index.css" />
+  <title>TRY</title>
+</head>
+
+<body class="body">
+  <div class="content">
+    <header class="header">
+      <div class="header__contacts">
+        <p>
+          Good Luck With Shopping. Call Us Free 24/7 : (555) 172-244-7888 | (555) 172-244
+        </p>
+      </div>
+      <div class="header__links">
+        <a href="" class="header__navigation-item">
+          Wish List(0)
+        </a>
+        <a href="" class="header__navigation-item">
+          Checkout
+        </a>
+      </div>
+    </header>
+    <section class="search">
+      <div class="search__buttons">
+        <div class='search__icons'>
+          <img src='./images/hamburger-icon-png-5.png' alt='бургер меню' class="search__burger-menu">
+          <img src="./images/logo.png" alt="" class="search__logo">
+        </div>
+        <div class="search__search-construction">
+          <input type="text" placeholder="Search" class="search__search-input">
+          <button type='button' class='search__submit-button'></button>
+        </div>
+        <div class="search__myaccount">
+          MY ACCOUNT
+          <div class="search__myaccount-drop-down">
+            <div class="search__myaccount-drop-down-textarea">
+              <p class='search__myaccount-text-element'>Register</p>
+              <p class='search__myaccount-text-element'>Login</p>
+            </div>
+            <div class="search__myaccount-drop-down-flagarea">
+              <p class='search__myaccount-text-element search__myaccount-text-element_flagerea'>Language</p>
+              <div class="search__myaccount-drop-down-flags">
+                <img src="./images/arabic-flag.png" alt="" class="search__myaccount-drop-down-flag">
+                <img src="./images/british-flag.png" alt="" class="search__myaccount-drop-down-flag">
+              </div>
+            </div>
+            <div class="search__myaccount-drop-down-currencyarea">
+              <p class='search__myaccount-text-element search__myaccount-text-element_currencyarea'>Currency</p>
+              <div class="search__myaccount-currency">
+                <div class="search__myaccount-currency-item">€</div>
+                <div class="search__myaccount-currency-item">£</div>
+                <div class="search__myaccount-currency-item">$</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="search__cart">
+          MY CART
+        </div>
+      </div>
+      <div class="search__search-construction search__search-construction_tablet">
+        <input type="text" placeholder="Search" class="search__search-input">
+        <button type='button' class='search__submit-button'></button>
+      </div>
+      <div class="search__drop-menu">
+        <div class="search__drop-menu-content">
+          <div class="search__drop-menu-item">Home</div>
+          <div class="search__drop-menu-item search__drop-menu-item_clothes">
+            Clothes
+            <div class="search__drop-menu-drop-arrow search__drop-menu-drop-arrow_clothes"></div>
+          </div>
+          <div class="search__drop-menu-first-level-dropdown search__drop-menu-first-level-dropdown_clothes">
+            <div class="search__drop-menu-first-level-dropdown-item search__drop-menu-first-level-dropdown-item_kids">
+              Kids
+              <div id='drop-arrow-kids' class="search__drop-menu-drop-arrow search__drop-menu-drop-arrow_second-level">
+              </div>
+            </div>
+            <div class="search__drop-menu-second-level-dropdown search__drop-menu-second-level-dropdown_kids">
+              <div class="search__drop-menu-second-level-item">Capri</div>
+              <div class="search__drop-menu-second-level-item">Jacket</div>
+              <div class="search__drop-menu-second-level-item">Shorts</div>
+            </div>
+            <div class="search__drop-menu-first-level-dropdown-item search__drop-menu-first-level-dropdown-item_women">
+              Women
+              <div id='drop-arrow-women' class="search__drop-menu-drop-arrow search__drop-menu-drop-arrow_second-level">
+              </div>
+            </div>
+            <div class="search__drop-menu-second-level-dropdown search__drop-menu-second-level-dropdown_women">
+              <div class="search__drop-menu-second-level-item">Dresses</div>
+              <div class="search__drop-menu-second-level-item">Frocks</div>
+              <div class="search__drop-menu-second-level-item">Saree</div>
+              <div class="search__drop-menu-second-level-item">Suits</div>
+            </div>
+            <div class="search__drop-menu-first-level-dropdown-item search__drop-menu-first-level-dropdown-item_men">
+              Men
+              <div id='drop-arrow-men' class="search__drop-menu-drop-arrow search__drop-menu-drop-arrow_second-level">
+              </div>
+            </div>
+            <div class="search__drop-menu-second-level-dropdown search__drop-menu-second-level-dropdown_men">
+              <div class="search__drop-menu-second-level-item">Denim</div>
+              <div class="search__drop-menu-second-level-item">Jeans</div>
+              <div class="search__drop-menu-second-level-item">Shirts</div>
+              <div class="search__drop-menu-second-level-item">T-Shirts</div>
+            </div>
+          </div>
+          <div class="search__drop-menu-item search__drop-menu-item_accessories">
+            Accessories
+            <div class="search__drop-menu-drop-arrow search__drop-menu-drop-arrow_accessories">
+            </div>
+          </div>
+          <div class="search__drop-menu-first-level-dropdown search__drop-menu-first-level-dropdown_accessories">
+            <div class="search__drop-menu-first-level-dropdown-item">
+              Cap
+            </div>
+            <div class="search__drop-menu-first-level-dropdown-item">
+              Handbag
+            </div>
+          </div>
+          <div class="search__drop-menu-item">Art</div>
+          <div class="search__drop-menu-item search__drop-menu-item_kitchenaccessories">
+            kitchen Accessories
+            <div class="search__drop-menu-drop-arrow search__drop-menu-drop-arrow_kitchenaccessories">
+            </div>
+          </div>
+          <div class="search__drop-menu-first-level-dropdown search__drop-menu-first-level-dropdown_kitchenaccessories">
+            <div
+              class="search__drop-menu-first-level-dropdown-item search__drop-menu-first-level-dropdown-item_blender">
+              Blender
+            </div>
+            <div class="search__drop-menu-second-level-dropdown search__drop-menu-second-level-dropdown_blender">
+              <div class="search__drop-menu-second-level-item search__drop-menu-second-level-item_blender">Grater</div>
+              <div class="search__drop-menu-second-level-item search__drop-menu-second-level-item_blender">Whisk</div>
+            </div>
+            <div class="search__drop-menu-first-level-dropdown-item">
+              Colander
+            </div>
+            <div class="search__drop-menu-first-level-dropdown-item">
+              Cutting Board
+            </div>
+            <div class="search__drop-menu-first-level-dropdown-item">
+              Mixing Bowls
+            </div>
+            <div class="search__drop-menu-first-level-dropdown-item">
+              Rolling Pin
+            </div>
+          </div>
+          <div class="search__drop-menu-item">Smart wacth</div>
+          <div class="search__drop-menu-item">Electronics</div>
+          <div class="search__drop-menu-item">home Accessories</div>
+          <div class="search__drop-menu-item">Blogs</div>
+        </div>
+      </div>
+    </section>
+    <section class='navigation'>
+      <div class="navigation__content">
+        <div class="navigation__item">HOME</div>
+        <div>
+          <div class="navigation__item navigation__item_dropdown-clothes">
+            CLOTHES
+          </div>
+          <ul class="navigation__clothes-dropdown-content">
+            <li class='navigation__clothes-dropdown-column'>
+              <h4 class='navigation__clothes-dropdown-header'>Kids</h4>
+              <p class='navigation__clothes-dropdown-text-item'>Capri</p>
+              <p class='navigation__clothes-dropdown-text-item'>Jacket</p>
+              <p class='navigation__clothes-dropdown-text-item'>Shorts</p>
+            </li>
+            <li class='navigation__clothes-dropdown-column'>
+              <h4 class='navigation__clothes-dropdown-header'>Women</h4>
+              <p class='navigation__clothes-dropdown-text-item'>Dresses</p>
+              <p class='navigation__clothes-dropdown-text-item'>Frock</p>
+              <p class='navigation__clothes-dropdown-text-item'>Serie</p>
+              <p class='navigation__clothes-dropdown-text-item'>Suits</p>
+            </li>
+            <li class='navigation__clothes-dropdown-column'>
+              <h4 class='navigation__clothes-dropdown-header'>Men</h4>
+              <p class='navigation__clothes-dropdown-text-item'>D-neem</p>
+              <p class='navigation__clothes-dropdown-text-item'>Jeans</p>
+              <p class='navigation__clothes-dropdown-text-item'>Shirts</p>
+              <p class='navigation__clothes-dropdown-text-item'>T-Shirts</p>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div id='accessor-dropdown' class="navigation__item navigation__item_dropdown-one-column">ACCESSORIES</div>
+          <ul id='accessor-dropdown-content' class="navigation__one-column-dropdown-content">
+            <li class='navigation__one-column-item'>Cap</li>
+            <li class='navigation__one-column-item'>Handbags</li>
+          </ul>
+        </div>
+        <div class="navigation__item">ART</div>
+        <div>
+          <div id='kithcen-dropdown' class="navigation__item navigation__item_dropdown-one-column">KITCHEN ACCESSORIES
+          </div>
+          <ul id='kithcen-dropdown-content' class="navigation__one-column-dropdown-content">
+            <li class='navigation__one-column-item'>Blender</li>
+            <li class='navigation__one-column-item'>Colander</li>
+            <li class='navigation__one-column-item'>Cutting board</li>
+            <li class='navigation__one-column-item'>Mixing bowls.</li>
+            <li class='navigation__one-column-item'>Rolling pins</li>
+          </ul>
+        </div>
+        <div class="navigation__item">SMART WATCH</div>
+        <div>
+          <div id='more-dropdown' class="navigation__item navigation__item_dropdown-one-column">MORE</div>
+          <ul id='more-dropdown-content' class="navigation__one-column-dropdown-content">
+            <li class='navigation__one-column-item'>Electronics</li>
+            <li class='navigation__one-column-item'>Home Accessories</li>
+          </ul>
+        </div>
+        <div class="navigation__item">BLOGS</div>
+      </div>
+    </section>
+    <section class='limited-edition'>
+      <div class="limited-edition__slicker-container">
+        <div class="limited-edition__slicker">
+          <img src="./images/limited-edition-slicker-chair.jpg" alt="" class='limited-edition__slicker-item'>
+          <img src="./images/limited-edition-slicker-speaker.jpg" alt="" class='limited-edition__slicker-item'>
+        </div>
+        <div class="limited-edition__arrow-container">
+          <button class="limited-edition__arrow limited-edition__arrow_next"></button>
+          <button class="limited-edition__arrow limited-edition__arrow_prev"></button>
+        </div>
+        <div class="limited-edition__dots-container">
+        </div>
+        <div class="limited-edition__common-products">
+          <div class="limited-edition__common-product-container">
+            <div class="limited-edition__common-product-mask"></div>
+            <img src="./images/limited-edition-laptop.jpg" alt="" class='limited-edition__common-product'>
+          </div>
+          <div class="limited-edition__common-product-container">
+            <div class="limited-edition__common-product-mask"></div>
+            <img src="./images/limited-edition-silver-stone.jpg" alt="" class='limited-edition__common-product'>
+          </div>
+        </div>
+      </div>
+      <div class="limited-edition__marked-products">
+
+        <div class=" limited-edition__marked-product limited-edition__marked-product_backpack">
+          <div class="limited-edition__marked-product-mask"></div>
+
+          <h3 class='limited-edition__marked-product-header'>EXTRAORDINARY</h3>
+          <div class='limited-edition__marked-product-description'>
+            Handbags
+            <span class="limited-edition__marked-product-colored-text">Hot</span>
+          </div>
+        </div>
+        <div class="limited-edition__marked-product limited-edition__marked-product_lighting">
+          <div class="limited-edition__marked-product-mask"></div>
+          <h3 class='limited-edition__marked-product-header'>READY LIGHTING?</h3>
+          <div class='limited-edition__marked-product-description'>
+            <span class="limited-edition__marked-product-colored-text">Colorful</span>
+            Hot offer!!
+          </div>
+        </div>
+        <div class="limited-edition__marked-product limited-edition__marked-product_neckless">
+          <div class="limited-edition__marked-product-mask"></div>
+          <h3 class='limited-edition__marked-product-header'>
+            NECKLESS
+            <span class="limited-edition__marked-product-colored-text">Limited</span>
+          </h3>
+          <div class='limited-edition__marked-product-description'>
+            Extraordinary
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="our-products">
+      <div class='our-products__big-slicker-navigation'>
+        <h2 class="our-products__header">Our products</h2>
+        <div class="our-products__big-slicker-dots-container"></div>
+      </div>
+      <div class="our-products__big-slicker">
+        <div class="small-slicker__slicker-container">
+          <div class="small-slicker__slicker-arrow-container small-slicker__slicker-arrow-container_latest">
+            <button
+              class="small-slicker__slicker-arrow small-slicker__slicker-arrow_prev small-slicker__slicker-arrow_latest-prev"></button>
+            <button
+              class="small-slicker__slicker-arrow small-slicker__slicker-arrow_next small-slicker__slicker-arrow_latest-next"></button>
+          </div>
+          <div class="small-slicker__slicker small-slicker__slicker_latest">
+            <div class="small-slicker__slicker-item">
+              <img src="./images/earpackets.jpg" alt="" class="small-slicker__slicker-item-image-first">
+              <img src="./images/laptop.jpg" alt="" class="small-slicker__slicker-item-image-second">
+              <p class="small-slicker__slicker-item-name">Bhymuntina Centyraan 1</p>
+              <div class="small-slicker__slicker-item-stars"><span class="our-products__yellow-star">
+                  &#11088</span>&#9734&#9734&#9734&#9734</div>
+              <div class="small-slicker__slicker-item-prices">
+                <p class="small-slicker__slicker-item-newprice">111</p>
+                <p class="small-slicker__slicker-item-discount">11%</p>
+                <s class="small-slicker__slicker-item-oldprice">1111</s>
+              </div>
+              <button class="small-slicker__slicker-item-add-button">Add to cart</button>
+            </div>
+            <div class="small-slicker__slicker-item">
+              <img src="./images/earpackets.jpg" alt="" class="small-slicker__slicker-item-image-first">
+              <img src="./images/laptop.jpg" alt="" class="small-slicker__slicker-item-image-second">
+              <p class="small-slicker__slicker-item-name">Bhymuntina Centyraan 2</p>
+              <div class="small-slicker__slicker-item-stars"><span class="our-products__yellow-star">
+                  &#11088</span>&#9734&#9734&#9734&#9734</div>
+              <div class="small-slicker__slicker-item-prices">
+                <p class="small-slicker__slicker-item-newprice">111</p>
+                <p class="small-slicker__slicker-item-discount">110%</p>
+                <s class="small-slicker__slicker-item-oldprice">240</s>
+              </div>
+              <button class="small-slicker__slicker-item-add-button">Add to cart</button>
+            </div>
+            <div class="small-slicker__slicker-item">
+              <img src="./images/earpackets.jpg" alt="" class="small-slicker__slicker-item-image-first">
+              <img src="./images/laptop.jpg" alt="" class="small-slicker__slicker-item-image-second">
+              <p class="small-slicker__slicker-item-name">Bhymuntina Centyraan 3</p>
+              <div class="small-slicker__slicker-item-stars"><span class="our-products__yellow-star">
+                  &#11088</span>&#9734&#9734&#9734&#9734</div>
+              <div class="small-slicker__slicker-item-prices">
+                <p class="small-slicker__slicker-item-newprice">123</p>
+                <p class="small-slicker__slicker-item-discount">30%</p>
+                <s class="small-slicker__slicker-item-oldprice">240</s>
+              </div>
+              <button class="small-slicker__slicker-item-add-button">Add to cart</button>
+            </div>
+            <div class="small-slicker__slicker-item">
+              <img src="./images/earpackets.jpg" alt="" class="small-slicker__slicker-item-image-first">
+              <img src="./images/laptop.jpg" alt="" class="small-slicker__slicker-item-image-second">
+
+              <p class="small-slicker__slicker-item-name">Bhymuntina Centyraan 4</p>
+              <div class="small-slicker__slicker-item-stars"><span class="our-products__yellow-star">
+                  &#11088</span>&#9734&#9734&#9734&#9734</div>
+              <div class="small-slicker__slicker-item-prices">
+                <p class="small-slicker__slicker-item-newprice">120</p>
+                <p class="small-slicker__slicker-item-discount">30%</p>
+                <s class="small-slicker__slicker-item-oldprice">240</s>
+              </div>
+              <button class="small-slicker__slicker-item-add-button">Add to cart</button>
+            </div>
+            <div class="small-slicker__slicker-item">
+              <img src="./images/earpackets.jpg" alt="" class="small-slicker__slicker-item-image-first">
+              <img src="./images/laptop.jpg" alt="" class="small-slicker__slicker-item-image-second">
+
+              <p class="small-slicker__slicker-item-name">Bhymuntina Centyraan 4</p>
+              <div class="small-slicker__slicker-item-stars"><span class="our-products__yellow-star">
+                  &#11088</span>&#9734&#9734&#9734&#9734</div>
+              <div class="small-slicker__slicker-item-prices">
+                <p class="small-slicker__slicker-item-newprice">120</p>
+                <p class="small-slicker__slicker-item-discount">30%</p>
+                <s class="small-slicker__slicker-item-oldprice">240</s>
+              </div>
+              <button class="small-slicker__slicker-item-add-button">Add to cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="small-slicker__slicker-container">
+          <div class="small-slicker__slicker-arrow-container small-slicker__slicker-arrow-container_bestseller">
+            <button
+              class="small-slicker__slicker-arrow small-slicker__slicker-arrow_prev small-slicker__slicker-arrow_bestseller-prev"></button>
+            <button
+              class="small-slicker__slicker-arrow small-slicker__slicker-arrow_next small-slicker__slicker-arrow_bestseller-next"></button>
+          </div>
+          <div class="small-slicker__slicker small-slicker__slicker_bestseller">
+            <div class="small-slicker__slicker-item">
+              <img src="./images/earpackets.jpg" alt="" class="small-slicker__slicker-item-image-first">
+              <img src="./images/laptop.jpg" alt="" class="small-slicker__slicker-item-image-second">
+              <p class="small-slicker__slicker-item-name">Bhymuntina Centyraan 1</p>
+              <div class="small-slicker__slicker-item-stars"><span class="our-products__yellow-star">
+                  &#11088</span>&#9734&#9734&#9734&#9734</div>
+              <div class="small-slicker__slicker-item-prices">
+                <p class="small-slicker__slicker-item-newprice">222</p>
+                <p class="small-slicker__slicker-item-discount">22%</p>
+                <s class="small-slicker__slicker-item-oldprice">222</s>
+              </div>
+              <button class="small-slicker__slicker-item-add-button">Add to cart</button>
+            </div>
+            <div class="small-slicker__slicker-item">
+              <img src="./images/earpackets.jpg" alt="" class="small-slicker__slicker-item-image-first">
+              <img src="./images/laptop.jpg" alt="" class="small-slicker__slicker-item-image-second">
+              <p class="small-slicker__slicker-item-name">Bhymuntina Centyraan 2</p>
+              <div class="small-slicker__slicker-item-stars"><span class="our-products__yellow-star">
+                  &#11088</span>&#9734&#9734&#9734&#9734</div>
+              <div class="small-slicker__slicker-item-prices">
+                <p class="small-slicker__slicker-item-newprice">111</p>
+                <p class="small-slicker__slicker-item-discount">110%</p>
+                <s class="small-slicker__slicker-item-oldprice">240</s>
+              </div>
+              <button class="small-slicker__slicker-item-add-button">Add to cart</button>
+            </div>
+            <div class="small-slicker__slicker-item">
+              <img src="./images/earpackets.jpg" alt="" class="small-slicker__slicker-item-image-first">
+              <img src="./images/laptop.jpg" alt="" class="small-slicker__slicker-item-image-second">
+              <p class="small-slicker__slicker-item-name">Bhymuntina Centyraan 3</p>
+              <div class="small-slicker__slicker-item-stars"><span class="our-products__yellow-star">
+                  &#11088</span>&#9734&#9734&#9734&#9734</div>
+              <div class="small-slicker__slicker-item-prices">
+                <p class="small-slicker__slicker-item-newprice">123</p>
+                <p class="small-slicker__slicker-item-discount">30%</p>
+                <s class="small-slicker__slicker-item-oldprice">240</s>
+              </div>
+              <button class="small-slicker__slicker-item-add-button">Add to cart</button>
+            </div>
+            <div class="small-slicker__slicker-item">
+              <img src="./images/earpackets.jpg" alt="" class="small-slicker__slicker-item-image-first">
+              <img src="./images/laptop.jpg" alt="" class="small-slicker__slicker-item-image-second">
+
+              <p class="small-slicker__slicker-item-name">Bhymuntina Centyraan 4</p>
+              <div class="small-slicker__slicker-item-stars"><span class="our-products__yellow-star">
+                  &#11088</span>&#9734&#9734&#9734&#9734</div>
+              <div class="small-slicker__slicker-item-prices">
+                <p class="small-slicker__slicker-item-newprice">120</p>
+                <p class="small-slicker__slicker-item-discount">30%</p>
+                <s class="small-slicker__slicker-item-oldprice">240</s>
+              </div>
+              <button class="small-slicker__slicker-item-add-button">Add to cart</button>
+            </div>
+            <div class="small-slicker__slicker-item">
+              <img src="./images/earpackets.jpg" alt="" class="small-slicker__slicker-item-image-first">
+              <img src="./images/laptop.jpg" alt="" class="small-slicker__slicker-item-image-second">
+
+              <p class="small-slicker__slicker-item-name">Bhymuntina Centyraan 4</p>
+              <div class="small-slicker__slicker-item-stars"><span class="our-products__yellow-star">
+                  &#11088</span>&#9734&#9734&#9734&#9734</div>
+              <div class="small-slicker__slicker-item-prices">
+                <p class="small-slicker__slicker-item-newprice">120</p>
+                <p class="small-slicker__slicker-item-discount">30%</p>
+                <s class="small-slicker__slicker-item-oldprice">240</s>
+              </div>
+              <button class="small-slicker__slicker-item-add-button">Add to cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="small-slicker__slicker-container">
+          <div class="small-slicker__slicker-arrow-container small-slicker__slicker-arrow-container_special">
+            <button
+              class="small-slicker__slicker-arrow small-slicker__slicker-arrow_prev small-slicker__slicker-arrow_special-prev"></button>
+            <button
+              class="small-slicker__slicker-arrow small-slicker__slicker-arrow_next small-slicker__slicker-arrow_special-next"></button>
+          </div>
+          <div class="small-slicker__slicker small-slicker__slicker_special">
+            <div class="small-slicker__slicker-item">
+              <img src="./images/earpackets.jpg" alt="" class="small-slicker__slicker-item-image-first">
+              <img src="./images/laptop.jpg" alt="" class="small-slicker__slicker-item-image-second">
+              <p class="small-slicker__slicker-item-name">Bhymuntina Centyraan 1</p>
+              <div class="small-slicker__slicker-item-stars"><span class="our-products__yellow-star">
+                  &#11088</span>&#9734&#9734&#9734&#9734</div>
+              <div class="small-slicker__slicker-item-prices">
+                <p class="small-slicker__slicker-item-newprice">222</p>
+                <p class="small-slicker__slicker-item-discount">22%</p>
+                <s class="small-slicker__slicker-item-oldprice">222</s>
+              </div>
+              <button class="small-slicker__slicker-item-add-button">Add to cart</button>
+            </div>
+            <div class="small-slicker__slicker-item">
+              <img src="./images/earpackets.jpg" alt="" class="small-slicker__slicker-item-image-first">
+              <img src="./images/laptop.jpg" alt="" class="small-slicker__slicker-item-image-second">
+              <p class="small-slicker__slicker-item-name">Bhymuntina Centyraan 2</p>
+              <div class="small-slicker__slicker-item-stars"><span class="our-products__yellow-star">
+                  &#11088</span>&#9734&#9734&#9734&#9734</div>
+              <div class="small-slicker__slicker-item-prices">
+                <p class="small-slicker__slicker-item-newprice">111</p>
+                <p class="small-slicker__slicker-item-discount">110%</p>
+                <s class="small-slicker__slicker-item-oldprice">240</s>
+              </div>
+              <button class="small-slicker__slicker-item-add-button">Add to cart</button>
+            </div>
+            <div class="small-slicker__slicker-item">
+              <img src="./images/earpackets.jpg" alt="" class="small-slicker__slicker-item-image-first">
+              <img src="./images/laptop.jpg" alt="" class="small-slicker__slicker-item-image-second">
+              <p class="small-slicker__slicker-item-name">Bhymuntina Centyraan 3</p>
+              <div class="small-slicker__slicker-item-stars"><span class="our-products__yellow-star">
+                  &#11088</span>&#9734&#9734&#9734&#9734</div>
+              <div class="small-slicker__slicker-item-prices">
+                <p class="small-slicker__slicker-item-newprice">123</p>
+                <p class="small-slicker__slicker-item-discount">30%</p>
+                <s class="small-slicker__slicker-item-oldprice">240</s>
+              </div>
+              <button class="small-slicker__slicker-item-add-button">Add to cart</button>
+            </div>
+            <div class="small-slicker__slicker-item">
+              <img src="./images/earpackets.jpg" alt="" class="small-slicker__slicker-item-image-first">
+              <img src="./images/laptop.jpg" alt="" class="small-slicker__slicker-item-image-second">
+
+              <p class="small-slicker__slicker-item-name">Bhymuntina Centyraan 4</p>
+              <div class="small-slicker__slicker-item-stars"><span class="our-products__yellow-star">
+                  &#11088</span>&#9734&#9734&#9734&#9734</div>
+              <div class="small-slicker__slicker-item-prices">
+                <p class="small-slicker__slicker-item-newprice">120</p>
+                <p class="small-slicker__slicker-item-discount">30%</p>
+                <s class="small-slicker__slicker-item-oldprice">240</s>
+              </div>
+              <button class="small-slicker__slicker-item-add-button">Add to cart</button>
+            </div>
+            <div class="small-slicker__slicker-item">
+              <img src="./images/earpackets.jpg" alt="" class="small-slicker__slicker-item-image-first">
+              <img src="./images/laptop.jpg" alt="" class="small-slicker__slicker-item-image-second">
+
+              <p class="small-slicker__slicker-item-name">Bhymuntina Centyraan 4</p>
+              <div class="small-slicker__slicker-item-stars"><span class="our-products__yellow-star">
+                  &#11088</span>&#9734&#9734&#9734&#9734</div>
+              <div class="small-slicker__slicker-item-prices">
+                <p class="small-slicker__slicker-item-newprice">120</p>
+                <p class="small-slicker__slicker-item-discount">30%</p>
+                <s class="small-slicker__slicker-item-oldprice">240</s>
+              </div>
+              <button class="small-slicker__slicker-item-add-button">Add to cart</button>
+            </div>
+            <div class="small-slicker__slicker-item">
+              <img src="./images/earpackets.jpg" alt="" class="small-slicker__slicker-item-image-first">
+              <img src="./images/laptop.jpg" alt="" class="small-slicker__slicker-item-image-second">
+
+              <p class="small-slicker__slicker-item-name">Bhymuntina Centyraan 4</p>
+              <div class="small-slicker__slicker-item-stars"><span class="our-products__yellow-star">
+                  &#11088</span>&#9734&#9734&#9734&#9734</div>
+              <div class="small-slicker__slicker-item-prices">
+                <p class="small-slicker__slicker-item-newprice">120</p>
+                <p class="small-slicker__slicker-item-discount">30%</p>
+                <s class="small-slicker__slicker-item-oldprice">240</s>
+              </div>
+              <button class="small-slicker__slicker-item-add-button">Add to cart</button>
+            </div>
+            <div class="small-slicker__slicker-item">
+              <img src="./images/earpackets.jpg" alt="" class="small-slicker__slicker-item-image-first">
+              <img src="./images/laptop.jpg" alt="" class="small-slicker__slicker-item-image-second">
+
+              <p class="small-slicker__slicker-item-name">Bhymuntina Centyraan 4</p>
+              <div class="small-slicker__slicker-item-stars"><span class="our-products__yellow-star">
+                  &#11088</span>&#9734&#9734&#9734&#9734</div>
+              <div class="small-slicker__slicker-item-prices">
+                <p class="small-slicker__slicker-item-newprice">120</p>
+                <p class="small-slicker__slicker-item-discount">30%</p>
+                <s class="small-slicker__slicker-item-oldprice">240</s>
+              </div>
+              <button class="small-slicker__slicker-item-add-button">Add to cart</button>
+            </div>
+            <div class="small-slicker__slicker-item">
+              <img src="./images/earpackets.jpg" alt="" class="small-slicker__slicker-item-image-first">
+              <img src="./images/laptop.jpg" alt="" class="small-slicker__slicker-item-image-second">
+
+              <p class="small-slicker__slicker-item-name">Bhymuntina Centyraan 4</p>
+              <div class="small-slicker__slicker-item-stars"><span class="our-products__yellow-star">
+                  &#11088</span>&#9734&#9734&#9734&#9734</div>
+              <div class="small-slicker__slicker-item-prices">
+                <p class="small-slicker__slicker-item-newprice">120</p>
+                <p class="small-slicker__slicker-item-discount">30%</p>
+                <s class="small-slicker__slicker-item-oldprice">240</s>
+              </div>
+              <button class="small-slicker__slicker-item-add-button">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="our-products__big-slicker-arrow-conteiner"></div>
+    </section>
+    <secion class="pictures">
+      <div class="pictures__sales">
+        <div class="pictures__sale-item pictures__sale-item_woman">
+          <div class="pictures__text-container">
+            <div class="pictures__table-row-text">
+              <p class="pictures__discont-value">40% OFF</p>
+              <p class="pictures__name">FASHION LAB</p>
+            </div>
+
+            <p class="pictures__slogan">Explore Our Range</p>
+          </div>
+        </div>
+        <div class="pictures__sale-item pictures__sale-item_drone">
+          <div class="pictures__text-container">
+            <div class="pictures__table-row-text">
+              <p class="pictures__discont-value">50% OFF</p>
+              <p class="pictures__name">ELECT DRON</p>
+            </div>
+            <p class="pictures__slogan">Stylish Designs</p>
+          </div>
+        </div>
+      </div>
+      <div class="pictures__loft">
+        <div class="pictures__text-container">
+          <p class="pictures__discont-value">LIMITED EDITION</p>
+          <p class="pictures__name">SUMMER SPECIAL OFF</p>
+          <p class="pictures__description">Lorem Ipsum is simply dummy text of the printing and tyeseting industry.</p>
+        </div>
+      </div>
+    </secion>
+    <section class="specials">
+      <div class="small-slicker__slicker-container small-slicker__slicker-container_specials">
+        <div class="specials__control">
+          <h1 class='specials__header'>SPECIALS</h1>
+          <div class="small-slicker__slicker-arrow-container small-slicker__slicker-arrow-container_specials">
+            <button
+              class="small-slicker__slicker-arrow small-slicker__slicker-arrow_prev small-slicker__slicker-arrow_specials-prev"></button>
+            <button
+              class="small-slicker__slicker-arrow small-slicker__slicker-arrow_next small-slicker__slicker-arrow_specials-next"></button>
+          </div>
+        </div>
+        <div class="small-slicker__slicker small-slicker__slicker_specials">
+          <div class="small-slicker__slicker-item">
+            <img src="./images/earpackets.jpg" alt="" class="small-slicker__slicker-item-image-first">
+            <img src="./images/laptop.jpg" alt="" class="small-slicker__slicker-item-image-second">
+            <p class="small-slicker__slicker-item-name">Bhymuntina Centyraan 1</p>
+            <div class="small-slicker__slicker-item-stars"><span class="our-products__yellow-star">
+                &#11088</span>&#9734&#9734&#9734&#9734</div>
+            <div class="small-slicker__slicker-item-prices">
+              <p class="small-slicker__slicker-item-newprice">222</p>
+              <p class="small-slicker__slicker-item-discount">22%</p>
+              <s class="small-slicker__slicker-item-oldprice">222</s>
+            </div>
+            <button class="small-slicker__slicker-item-add-button">Add to cart</button>
+          </div>
+          <div class="small-slicker__slicker-item">
+            <img src="./images/earpackets.jpg" alt="" class="small-slicker__slicker-item-image-first">
+            <img src="./images/laptop.jpg" alt="" class="small-slicker__slicker-item-image-second">
+            <p class="small-slicker__slicker-item-name">Bhymuntina Centyraan 2</p>
+            <div class="small-slicker__slicker-item-stars"><span class="our-products__yellow-star">
+                &#11088</span>&#9734&#9734&#9734&#9734</div>
+            <div class="small-slicker__slicker-item-prices">
+              <p class="small-slicker__slicker-item-newprice">111</p>
+              <p class="small-slicker__slicker-item-discount">110%</p>
+              <s class="small-slicker__slicker-item-oldprice">240</s>
+            </div>
+            <button class="small-slicker__slicker-item-add-button">Add to cart</button>
+          </div>
+          <div class="small-slicker__slicker-item">
+            <img src="./images/earpackets.jpg" alt="" class="small-slicker__slicker-item-image-first">
+            <img src="./images/laptop.jpg" alt="" class="small-slicker__slicker-item-image-second">
+            <p class="small-slicker__slicker-item-name">Bhymuntina Centyraan 3</p>
+            <div class="small-slicker__slicker-item-stars"><span class="our-products__yellow-star">
+                &#11088</span>&#9734&#9734&#9734&#9734</div>
+            <div class="small-slicker__slicker-item-prices">
+              <p class="small-slicker__slicker-item-newprice">123</p>
+              <p class="small-slicker__slicker-item-discount">30%</p>
+              <s class="small-slicker__slicker-item-oldprice">240</s>
+            </div>
+            <button class="small-slicker__slicker-item-add-button">Add to cart</button>
+          </div>
+          <div class="small-slicker__slicker-item">
+            <img src="./images/earpackets.jpg" alt="" class="small-slicker__slicker-item-image-first">
+            <img src="./images/laptop.jpg" alt="" class="small-slicker__slicker-item-image-second">
+
+            <p class="small-slicker__slicker-item-name">Bhymuntina Centyraan 4</p>
+            <div class="small-slicker__slicker-item-stars"><span class="our-products__yellow-star">
+                &#11088</span>&#9734&#9734&#9734&#9734</div>
+            <div class="small-slicker__slicker-item-prices">
+              <p class="small-slicker__slicker-item-newprice">120</p>
+              <p class="small-slicker__slicker-item-discount">30%</p>
+              <s class="small-slicker__slicker-item-oldprice">240</s>
+            </div>
+            <button class="small-slicker__slicker-item-add-button">Add to cart</button>
+          </div>
+          <div class="small-slicker__slicker-item">
+            <img src="./images/earpackets.jpg" alt="" class="small-slicker__slicker-item-image-first">
+            <img src="./images/laptop.jpg" alt="" class="small-slicker__slicker-item-image-second">
+
+            <p class="small-slicker__slicker-item-name">Bhymuntina Centyraan 4</p>
+            <div class="small-slicker__slicker-item-stars"><span class="our-products__yellow-star">
+                &#11088</span>&#9734&#9734&#9734&#9734</div>
+            <div class="small-slicker__slicker-item-prices">
+              <p class="small-slicker__slicker-item-newprice">120</p>
+              <p class="small-slicker__slicker-item-discount">30%</p>
+              <s class="small-slicker__slicker-item-oldprice">240</s>
+            </div>
+            <button class="small-slicker__slicker-item-add-button">Add to cart</button>
+          </div>
+          <div class="small-slicker__slicker-item">
+            <img src="./images/earpackets.jpg" alt="" class="small-slicker__slicker-item-image-first">
+            <img src="./images/laptop.jpg" alt="" class="small-slicker__slicker-item-image-second">
+
+            <p class="small-slicker__slicker-item-name">Bhymuntina Centyraan 4</p>
+            <div class="small-slicker__slicker-item-stars"><span class="our-products__yellow-star">
+                &#11088</span>&#9734&#9734&#9734&#9734</div>
+            <div class="small-slicker__slicker-item-prices">
+              <p class="small-slicker__slicker-item-newprice">120</p>
+              <p class="small-slicker__slicker-item-discount">30%</p>
+              <s class="small-slicker__slicker-item-oldprice">240</s>
+            </div>
+            <button class="small-slicker__slicker-item-add-button">Add to cart</button>
+          </div>
+          <div class="small-slicker__slicker-item">
+            <img src="./images/earpackets.jpg" alt="" class="small-slicker__slicker-item-image-first">
+            <img src="./images/laptop.jpg" alt="" class="small-slicker__slicker-item-image-second">
+
+            <p class="small-slicker__slicker-item-name">Bhymuntina Centyraan 4</p>
+            <div class="small-slicker__slicker-item-stars"><span class="our-products__yellow-star">
+                &#11088</span>&#9734&#9734&#9734&#9734</div>
+            <div class="small-slicker__slicker-item-prices">
+              <p class="small-slicker__slicker-item-newprice">120</p>
+              <p class="small-slicker__slicker-item-discount">30%</p>
+              <s class="small-slicker__slicker-item-oldprice">240</s>
+            </div>
+            <button class="small-slicker__slicker-item-add-button">Add to cart</button>
+          </div>
+          <div class="small-slicker__slicker-item">
+            <img src="./images/earpackets.jpg" alt="" class="small-slicker__slicker-item-image-first">
+            <img src="./images/laptop.jpg" alt="" class="small-slicker__slicker-item-image-second">
+
+            <p class="small-slicker__slicker-item-name">Bhymuntina Centyraan 4</p>
+            <div class="small-slicker__slicker-item-stars"><span class="our-products__yellow-star">
+                &#11088</span>&#9734&#9734&#9734&#9734</div>
+            <div class="small-slicker__slicker-item-prices">
+              <p class="small-slicker__slicker-item-newprice">120</p>
+              <p class="small-slicker__slicker-item-discount">30%</p>
+              <s class="small-slicker__slicker-item-oldprice">240</s>
+            </div>
+            <button class="small-slicker__slicker-item-add-button">Add to cart</button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <!--
+    <div class="specials__slicker-container">
+      <div class="specials__slicker-arrow-container">
+        <button class="specials__slicker-arrow our-products__slicker-arrow_prev"></button>
+        <button class="specials__slicker-arrow specials__slicker-arrow_next"></button>
+      </div>
+      <div class="specials__slicker">
+        <div class="specials__slicker-item">
+          <img src="./images/earpackets.jpg" alt="" class="specials__slicker-item-image-first">
+          <img src="./images/laptop.jpg" alt="" class="specials__slicker-item-image-second">
+          <p class="specials__slicker-item-name">Bhymuntina Centyraan 1</p>
+          <div class="specials__slicker-item-stars"><span class="specials__yellow-star">
+              &#11088</span>&#9734&#9734&#9734&#9734</div>
+          <div class="specials__slicker-item-prices">
+            <p class="specials__slicker-item-newprice">222</p>
+            <p class="specials__slicker-item-discount">22%</p>
+            <s class="specials__slicker-item-oldprice">222</s>
+          </div>
+          <button class="specials__slicker-item-add-button">Add to cart</button>
+        </div>
+      </div>
+    </div>
+  -->
+
+    </section>
+    <section class="logo-slicker">
+      <div class="logo-slicker__arrows-container"></div>
+      <div class="logo-slicker__slicker-itself">
+        <div class="logo-slicker__item-container">
+          <img src="./images/prestigelogo.png" alt="" class='logo-slicker__slicker-item'>
+        </div>
+        <div class="logo-slicker__item-container">
+          <img src="./images/businesslogo.png" alt="" class='logo-slicker__slicker-item'>
+        </div>
+        <div class="logo-slicker__item-container">
+          <img src="./images/shopnamelogo.png" alt="" class='logo-slicker__slicker-item'>
+        </div>
+        <div class="logo-slicker__item-container">
+          <img src="./images/prestigelogo.png" alt="" class='logo-slicker__slicker-item'>
+        </div>
+        <div class="logo-slicker__item-container">
+          <img src="./images/businesslogo.png" alt="" class='logo-slicker__slicker-item'>
+        </div>
+        <div class="logo-slicker__item-container">
+          <img src="./images/shopnamelogo.png" alt="" class='logo-slicker__slicker-item'>
+        </div>
+      </div>
+    </section>
+    <section class="lates-blog">
+      <h2 class="latest-blog__header">LATEST BLOG</h2>
+      <div class="latest-blog__slicker">
+        <div class="latest-blog__item">
+          <div class="latest-blog__item-content">
+            <div class="latest-blog__image-container">
+              <div class="latest-blog__image-mask">
+                <div class="latest-blog__image-mask-button"></div>
+                <div class="latest-blog__image-mask-button"></div>
+              </div>
+              <img src="./images/cylinders.jpg" alt="" class="latest-blog__item-image">
+            </div>
+            <p class="latest-blog__date">18,09,2018</p>
+            <p class="latest-blog__description">Laoreet Vestibulum lacinia massa a commodo habitasse velit</p>
+          </div>
+        </div>
+        <div class="latest-blog__item">
+          <div class="latest-blog__item-content">
+            <div class="latest-blog__image-container">
+              <div class="latest-blog__image-mask">
+                <div class="latest-blog__image-mask-button"></div>
+                <div class="latest-blog__image-mask-button"></div>
+              </div>
+              <img src="./images/clothes.jpg" alt="" class="latest-blog__item-image">
+            </div>
+            <p class="latest-blog__date">18,09,2018</p>
+            <p class="latest-blog__description">Laoreet Vestibulum lacinia massa a commodo habitasse velit</p>
+          </div>
+        </div>
+        <div class="latest-blog__item">
+          <div class="latest-blog__item-content">
+            <div class="latest-blog__image-container">
+              <div class="latest-blog__image-mask">
+                <div class="latest-blog__image-mask-button"></div>
+                <div class="latest-blog__image-mask-button"></div>
+              </div>
+              <img src="./images/cylinders.jpg" alt="" class="latest-blog__item-image">
+            </div>
+            <p class="latest-blog__date">18,09,2018</p>
+            <p class="latest-blog__description">Laoreet Vestibulum lacinia massa a commodo habitasse velit</p>
+          </div>
+        </div>
+        <div class="latest-blog__item">
+          <div class="latest-blog__item-content">
+            <div class="latest-blog__image-container">
+              <div class="latest-blog__image-mask">
+                <div class="latest-blog__image-mask-button"></div>
+                <div class="latest-blog__image-mask-button"></div>
+              </div>
+              <img src="./images/clothes.jpg" alt="" class="latest-blog__item-image">
+            </div>
+            <p class="latest-blog__date">18,09,2018</p>
+            <p class="latest-blog__description">Laoreet Vestibulum lacinia massa a commodo habitasse velit</p>
+          </div>
+        </div>
+        <div class="latest-blog__item">
+          <div class="latest-blog__item-content">
+            <div class="latest-blog__image-container">
+              <div class="latest-blog__image-mask">
+                <div class="latest-blog__image-mask-button"></div>
+                <div class="latest-blog__image-mask-button"></div>
+              </div>
+              <img src="./images/cylinders.jpg" alt="" class="latest-blog__item-image">
+            </div>
+            <p class="latest-blog__date">18,09,2018</p>
+            <p class="latest-blog__description">Laoreet Vestibulum lacinia massa a commodo habitasse velit</p>
+          </div>
+        </div>
+        <div class="latest-blog__item">
+          <div class="latest-blog__item-content">
+            <div class="latest-blog__image-container">
+              <div class="latest-blog__image-mask">
+                <div class="latest-blog__image-mask-button"></div>
+                <div class="latest-blog__image-mask-button"></div>
+              </div>
+              <img src="./images/clothes.jpg" alt="" class="latest-blog__item-image">
+            </div>
+            <p class="latest-blog__date">18,09,2018</p>
+            <p class="latest-blog__description">Laoreet Vestibulum lacinia massa a commodo habitasse velit</p>
+          </div>
+        </div>
+
+    </section>
+    <section class="rolling-icons">
+      <div class="rolling-icons__item">
+        <div class="rolling-icons__icon rolling-icons__icon_car">car</div>
+        <div class="rolling-icons__text">
+          <p class="rolling-icons__name">FREE WORLD DELIVERY</p>
+          <p class="rolling-icons__parameter">Order over $100</p>
+        </div>
+      </div>
+      <div class="rolling-icons__item">
+        <div class="rolling-icons__icon rolling-icons__icon_bag">bag</div>
+        <div class="rolling-icons__text">
+          <p class="rolling-icons__name">FREE WORLD DELIVERY</p>
+          <p class="rolling-icons__parameter">Order over $100</p>
+        </div>
+      </div>
+      <div class="rolling-icons__item">
+        <div class="rolling-icons__icon rolling-icons__icon_headphones">headph</div>
+        <div class="rolling-icons__text">
+          <p class="rolling-icons__name">FREE WORLD DELIVERY</p>
+          <p class="rolling-icons__parameter">Order over $100</p>
+        </div>
+      </div>
+      <div class="rolling-icons__item">
+        <div class="rolling-icons__icon rolling-icons__icon_arrow">arrow</div>
+        <div class="rolling-icons__text">
+          <p class="rolling-icons__name">FREE WORLD DELIVERY</p>
+          <p class="rolling-icons__parameter">Order over $100</p>
+        </div>
+      </div>
+    </section>
+    <footer class="footer" id="footer">
+      <div class="footer__content">
+        <div id='footer-drop-down-contacts' class="footer__drop-down-button">
+          <p class="footer__drop-down-button-text">STORE INFORMATION</p>
+          <div class="footer__drop-downarrow"></div>
+        </div>
+        <div class="footer__drop-down-content footer__drop-down-content_contacts">
+
+        </div>
+        <div id='footer-drop-down-information' class="footer__drop-down-button">
+          <p class="footer__drop-down-button-text">INFORMATION</p>
+          <div class="footer__drop-downarrow"></div>
+        </div>
+        <div class="footer__drop-down-content footer__drop-down-content_information">
+
+        </div>
+        <div id='footer-drop-down-myaccount' class="footer__drop-down-button">
+          <p class="footer__drop-down-button-text">MY ACCOUNT</p>
+          <div class="footer__drop-downarrow"></div>
+        </div>
+        <div class="footer__drop-down-content footer__drop-down-content_myaccount">
+
+        </div>
+        <div id='footer-drop-down-signup' class="footer__drop-down-button">
+          <p class="footer__drop-down-button-text">SIGN UP FOR NEWSLETTER</p>
+          <div class="footer__drop-downarrow"></div>
+        </div>
+        <div class="footer__drop-down-content footer__drop-down-content_signup">
+
+        </div>
+        <div id='footer-drop-down-socials' class="footer__drop-down-button">
+          <p class="footer__drop-down-button-text">SOCIAL MEDIA</p>
+          <div class="footer__drop-downarrow"></div>
+        </div>
+        <div class="footer__drop-down-content footer__drop-down-content_social-media">
+
+        </div>
+        <div class="footer__contacts">
+          <p class="footer__address">705-Infinity Centre, Beside trafy building, united state</p>
+          <p class="footer__phone">Call us: 0123-456-789</p>
+          <a href='#' class="footer__email">support@yourstore.com</a>
+        </div>
+        <div class="footer__information">
+          <h2 class="footer__column-header">INFORMATION</h2>
+          <a href='#' class="footer__text-item">&#8594 About us</a>
+          <a href='#' class="footer__text-item">&#8594 Delivery information</a>
+          <a href='#' class="footer__text-item">&#8594 Privacy Policy</a>
+          <a href='#' class="footer__text-item">&#8594 Terms & Conditions</a>
+        </div>
+        <div class="footer__myaccount">
+          <h2 class="footer__column-header"> MY ACCOUNT</h2>
+          <a href='#' class="footer__text-item">&#8594 My Account</a>
+          <a href='#' class="footer__text-item">&#8594 Specials</a>
+          <a href='#' class="footer__text-item">&#8594 Contact Us</a>
+          <a href='#' class="footer__text-item">&#8594 Site Map</a>
+          <a href='#' class="footer__text-item">&#8594 Brands</a>
+        </div>
+        <div class="footer__signup">
+          <h2 class="footer__column-header"> SIGN UP FOR NEWSLETTER</h2>
+          <div class="footer__input">
+            <input type="text" placeholder="Email" class="footer__text-input">
+            <button type='button' class='footer__submit-button'>SUBSCRIBE</button>
+          </div>
+          <div class="footer__social-media-icons">
+            <div class="footer__social-media-icon footer__social-media-icon_facebook"></div>
+            <div class="footer__social-media-icon footer__social-media-icon_google"></div>
+            <div class="footer__social-media-icon footer__social-media-icon_tweeter"></div>
+            <div class="footer__social-media-icon footer__social-media-icon_opencart"></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">Powered By OpenCart Your Store © 2021</p>
+        <div class="footer__cards">
+          <img src="./images/footerDiscover.png" alt="" class="footer__card">
+          <img src="./images/footerMaster.png" alt="" class="footer__card">
+          <img src="./images/footerMestro.png" alt="" class="footer__card">
+          <img src="./images/footerPaypal.png" alt="" class="footer__card">
+          <img src="./images/footerWallte.png" alt="" class="footer__card">
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./scripts/slick.min.js"></script>
+    <script src="./scripts/script.js"></script>
+  </div>
+</body>
+
+</html>

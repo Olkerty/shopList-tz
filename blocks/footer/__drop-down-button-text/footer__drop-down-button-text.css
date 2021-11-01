@@ -1,0 +1,12 @@
+.footer__drop-down-button-text {
+	position: relative;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 7px;
+		padding: 0 0 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 0;
+}

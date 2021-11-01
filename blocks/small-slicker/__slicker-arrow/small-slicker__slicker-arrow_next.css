@@ -1,0 +1,5 @@
+
+.small-slicker__slicker-arrow_next {
+	background-image: url(../../../images/left-arrow.png);
+	transform: rotate(180deg);
+}
